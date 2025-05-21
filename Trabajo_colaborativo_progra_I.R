@@ -10,3 +10,4 @@ class(dataset$promedio)
 mean(dataset$promedio, na.rm = T)
 class(dataset$creditos_aprobados)
 mean(dataset$creditos_aprobados, na.rm = T)
+#Esta es la parte de Sebastián
