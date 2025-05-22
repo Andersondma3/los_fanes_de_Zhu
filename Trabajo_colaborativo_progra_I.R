@@ -52,4 +52,3 @@ for (col in names(numericas)) {
 # Crear carpeta si no existe y guardar resultados
 dir.create("resultados", showWarnings = FALSE)
 write.csv(resultados, "resultados/columnas_mayores_media.csv", row.names = FALSE)
-  
