@@ -1,5 +1,4 @@
 
-
 #Persona 1 Anderson
 library(readr)
 dataset <- read_csv("C:/Users/ETLP/OneDrive/Documentos/III Ciclo UCR estadística/Programación I/dataset.csv")
