@@ -14,7 +14,14 @@ mean(dataset$creditos_aprobados, na.rm = T)
 #Esta es la parte de Sebastián
 
 
-
+desvestandar = function(n){
+  if (length(n) <= 1) {
+    resp1 = return("Debe ser más de un número")
+  } else {
+    resp2 = return(sd(n))
+  }
+}
+desvestandar(c(10,2,3))
 #Parte de Justin
 
 #Crear el archivo 03_iteracion_exportacion.R con el siguiente contenido:
