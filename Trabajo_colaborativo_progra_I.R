@@ -1,5 +1,4 @@
 
-
 #Persona 1 Anderson
 library(readr)
 dataset <- read_csv("C:/Users/ETLP/OneDrive/Documentos/III Ciclo UCR estadística/Programación I/dataset.csv")
@@ -22,6 +21,16 @@ desvestandar = function(n){
   }
 }
 desvestandar(c(10,2,3))
+
+NOMCOL = function(x) {
+  if (class(x) == "data.frame") {
+    nomcol = colnames(x)
+    print(nomcol)
+  } else {
+    print("Tiene que ser un dataframe")
+  }
+}
+NOMCOL(mtcars)
 #Parte de Justin
 
 #Crear el archivo 03_iteracion_exportacion.R con el siguiente contenido:
